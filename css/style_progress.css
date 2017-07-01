@@ -1,0 +1,31 @@
+/*iframe*/
+#upload_frame {
+	border:0px;
+	height:20px;
+	width:400px;
+	display:none;
+}
+
+#progress_container {
+	width: 100%;
+	height: 12px;
+	display: block;
+	margin:5px 0px -15px 0px;
+	background-image: url(../images/preloader.gif);
+	background-position: center center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#progress_bar {
+	position: relative;
+	height: 14px;
+	background-color: #F3631C;
+	width: 0%;
+	z-index:10;
+	background-image: url(../images/ajax_progress.gif);
+	visibility: hidden;
+}
+
+
